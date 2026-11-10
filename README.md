@@ -1,2 +1,1 @@
-# pg
-.
+# a game for pg
