@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#000000">
+  <title>Merge the Photos</title>
+  <link rel="icon" href="images/pout.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="progress" id="progress" aria-label="Merge progress"></header>
+
+    <section class="board" id="board" aria-label="Game board">
+      <div class="stage" id="stage"></div>
+      <div class="win" id="win" hidden>
+        <div class="win-card">
+          <img src="images/selfie.png" alt="" class="win-img" id="win-img">
+          <h1>You did it!</h1>
+          <p>Every photo merged into one.</p>
+          <button id="again" type="button">Play again</button>
+        </div>
+      </div>
+    </section>
+
+    <p class="hint" id="hint">Drag a photo onto a matching one to merge it</p>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
