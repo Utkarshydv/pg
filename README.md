@@ -11,4 +11,4 @@ A 3×3 photo-merging game. Drag a photo onto a matching one to merge it into the
 - When no matching pair is left on the board, every empty cell refills with fresh level-1 photos.
 - Merge up to the couple photo (second last). The game hands out exactly 64 level-1 photos in total (2^6), so 64 photos merge down to one couple photo with nothing left over (63 merges). That photo then morphs into the final selfie, alone on the board.
 
-# https://utkarshydv.github.io/pg/
+ https://utkarshydv.github.io/pg/
