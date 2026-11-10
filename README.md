@@ -2,8 +2,6 @@
 
 A 3×3 photo-merging game. Drag a photo onto a matching one to merge it into the next level:
 
-**pout → frown → lying on bed → blue t-shirt → monkey → red saree → couple → selfie (final)**
-
 ## Rules
 - The board starts full of level-1 photos.
 - Drag one photo one cell (swipe on mobile, drag with the mouse, or tap a photo then tap a neighbour / press an arrow key).
